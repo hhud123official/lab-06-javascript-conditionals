@@ -18,7 +18,7 @@ First, let's figure out what day and time it is!
 
 What command did you use, and what was its output?
 ----------
-
+date
 
 
 ==========
@@ -26,7 +26,7 @@ What command did you use, and what was its output?
 
 What command did you use, and what was its output?
 ----------
-
+cal
 
 
 ==========
@@ -34,7 +34,8 @@ What command did you use, and what was its output?
 
 What commands did you use to do this?
 ----------
-
+cd ~
+pwd
 
 
 ==========
@@ -42,23 +43,22 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
-
+a.)touch copy_backup.sh 
+b.)ls
 
 ==========
 5. What are the permissions on copy_to_backup.sh.
 
 What command did you use to find the permissions?
 ----------
-
-
+-rwxr--r--  1 student  staff  61 Feb 19 19:03 copy_to_backup.sh
 
 ==========
 6. a) Change the permissions so that copy_to_backup.sh is executable by the user.  b) Verify the new permissions.
 
 What commands did you use to do this?  What was the output?
 ----------
-
+chmod u+x
 
 
 ==========
@@ -68,7 +68,7 @@ $ ./copy_to_backup.sh
 
 What command did you use to try to execute the file?  What happens?
 ----------
-
+no output
 
 
 ==========
